@@ -1,0 +1,127 @@
+@media (min-width: 768px) {
+  .header {
+    padding: 0 2rem;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  /*Introduction section*/
+
+  .about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bar {
+    top: 25%;
+  }
+
+  .bar-2 {
+    top: 125%;
+  }
+
+  .naming {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .des {
+    text-align: center;
+    width: 70rem;
+  }
+
+  /*ABOUT ME SECTION*/
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutme-des {
+    text-align: center;
+    width: 70rem;
+  }
+
+  .range {
+    width: 50rem;
+  }
+
+  /*SERVICES SECTION*/
+
+  .services-des {
+    width: 70rem;
+  }
+
+  .skill-des {
+    width: 70rem;
+  }
+
+  /* PROJECTS SECTION */
+
+  .my-project h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-project p {
+    width: 74rem;
+  }
+  
+  .pro-btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .landingpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .my-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my-design img {
+    width: 25rem;
+  }
+
+  .contact {
+    row-gap: 3rem;
+  }
+
+  .contact p {
+    text-align: center;
+    width: 70rem;
+  }
+
+  .last-s {
+    background-color: #f8f8f8;
+  }
+
+  .last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .my-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2rem; */
+  }
+}
