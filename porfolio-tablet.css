@@ -56,7 +56,6 @@
   }
 
   /*SERVICES SECTION*/
-
   .services-des {
     width: 70rem;
   }
@@ -76,7 +75,7 @@
   .my-project p {
     width: 74rem;
   }
-  
+
   .pro-btn {
     display: flex;
     flex-direction: row;
@@ -96,6 +95,14 @@
   .my-design img {
     width: 25rem;
   }
+
+  /*TESTIMONIALS SECTION*/
+
+  .testimonial-header p {
+    width: 74rem;
+  }
+
+  /*CONTACT US SECTION*/
 
   .contact {
     row-gap: 3rem;

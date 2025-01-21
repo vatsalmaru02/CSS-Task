@@ -380,6 +380,7 @@ span {
 .pro-btn a:hover {
   background-color: #fd6f00;
   color: #fff;
+  transition: all .2s ease-in;
 }
 
 .my-design {
@@ -404,6 +405,30 @@ span {
   /* padding: 0 2rem; */
   text-transform: capitalize;
 }
+
+/*TESTIMONIAL SECTION*/
+
+.testimonial-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  row-gap: 2rem;
+}
+
+.testimonial-header h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.testimonial-header p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+/* CONTACT US SECTION*/
 
 .contact-us {
   display: flex;
@@ -447,7 +472,7 @@ span {
   background-color: #f8f8f8;
   padding: 0.5rem;
   border: 1px solid #afafaf;
-  border-radius: 5px;
+  border-radius: 5px; 
 }
 
 .mail button {
@@ -457,6 +482,12 @@ span {
   /* margin: 1rem; */
   border: none;
   border-radius: 5px;
+}
+
+.mail button:hover {
+  cursor: pointer;
+  background-color: #006400;
+  transition: all .2s ease-in;
 }
 
 .last-s {
