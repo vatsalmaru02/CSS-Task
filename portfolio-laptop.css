@@ -1,109 +1,14 @@
 @media (min-width: 1024px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  .about-me-section {
+    margin-top: 5rem;
   }
-
-  html {
-    font-size: 62.5%;
-    font-family: " Poppins", sans-serif;
-  }
-
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1rem;
-    padding: 1rem 6rem;
-  }
-
-  /*NAVBAR CSS*/
-
-  h1 {
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 58.51px;
-  }
-
-  span {
-    font-weight: 700;
-  }
-
-  .sub-img {
-    font-size: 24px;
-  }
-
-  .menu-toggle {
-    display: none;
-  }
-
-  .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-    padding: 1rem 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 3;
-  }
-  .logo-text {
-    display: flex;
-    align-items: center;
-  }
-
-  .close-icon {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
-    text-align: right;
-    padding: 1rem;
-    color: #000;
-  }
-
-  .menu-toggle:checked + .menu-icon + .menu .close-icon {
-    display: block;
-  }
-
-  .menu {
-    padding-top: 3rem;
-  }
-
-  .menu-icon {
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  .menu-icon .fa-solid {
-    color: #333;
-  }
-
-  .menu-toggle:checked + .menu-icon + .menu {
-    display: flex;
-  }
-
-  .menu li {
-    display: block;
-    font-size: 2.1rem;
-    font-weight: 400;
-    text-align: center;
-    padding: 1rem 0;
-    list-style-type: none;
-  }
-
-  /*Introduction section*/
 
   .head {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-flow: row-reverse;
-    gap: 15rem;
+    gap: 7rem;
   }
 
   .mypic {
@@ -111,8 +16,8 @@
   }
 
   .mypic img {
-    height: 42rem;
-    width: 35rem;
+    height: 30rem;
+    width: 25rem;
   }
 
   .dbar {
@@ -128,9 +33,14 @@
   .naming {
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    /* row-gap: rem; */
     align-items: first baseline;
     text-align: left;
+  }
+
+  .des {
+    text-align: left;
+    width: 64rem;
   }
 
   .name {
@@ -138,12 +48,12 @@
   }
 
   .proffesion-1 {
-    font-size: 8rem;
-    letter-spacing: 3px;
+    font-size: 6rem;
+    letter-spacing: 2px;
   }
 
   .proffesion-2 {
-    font-size: 8rem;
+    font-size: 6rem;
     letter-spacing: 3px;
     margin-left: 15rem;
   }
@@ -151,11 +61,11 @@
   .line {
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 1rem;
   }
 
   .des {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     text-align: left;
     margin-top: 2rem;
@@ -163,20 +73,18 @@
   }
 
   .header-right-section {
-    display: flex;
-    flex-direction: column;
     row-gap: 2rem;
   }
 
   .hire-me {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   /*ABOUT ME SECTION*/
 
   .aboutme-head {
     display: flex;
-    gap: 10rem;
+    gap: 4rem;
     margin-top: 5rem;
   }
 
@@ -187,8 +95,8 @@
   }
 
   .myimg img {
-    height: 40rem;
-    width: 40rem;
+    height: 30rem;
+    width: 30rem;
     z-index: 1;
     margin-top: 2rem;
   }
@@ -196,7 +104,7 @@
   .dbar-2 {
     position: absolute;
     top: 25%;
-    left: 48%;
+    left: 50%;
   }
 
   .aboutme {
@@ -205,19 +113,19 @@
   }
 
   .aboutme-header {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .aboutme-des {
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     word-spacing: 3px;
+    width: 62rem;
   }
 
   .label-range {
-    font-size: 1.8rem;
-    margin-top: 2rem;
+    font-size: 1.4rem;  
   }
 
   /* SERVICES SECTION*/
@@ -228,18 +136,17 @@
   }
 
   .myservices {
-    row-gap: 4rem;
-    column-gap: 4rem;
+    row-gap: 2rem;
   }
 
   .service {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-top: 2rem;
   }
 
   .services-des {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     /* padding: 0 2rem; */
   }
@@ -249,9 +156,11 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    width: 90%;
   }
 
   .all-services {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -285,7 +194,7 @@
   /* PROJECTS SECTION */
 
   .projects {
-    row-gap: 6rem;
+    row-gap: 4rem;
   }
 
   .my-project {
@@ -297,13 +206,17 @@
     margin-top: 8rem;
   }
 
+  .my-project h1 {
+    font-size: 3.5rem;
+  }
+
   .pro-btn a {
     border-radius: 5px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .my-project p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .landingpage {
@@ -328,11 +241,11 @@
   }
 
   .testimonial-header h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .testimonial-header p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .contact-us {
@@ -340,11 +253,11 @@
   }
 
   .contact h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .contact p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .mail {
@@ -356,14 +269,14 @@
     padding: 1rem;
     width: 50rem;
   }
- 
+
   .mail button {
     padding: 1rem;
   }
 
   .last-s {
     margin-top: 8rem;
-    padding: 5rem;
+    padding-top: 5rem;
   }
 
   .my-contact {
@@ -371,5 +284,389 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  @media (min-width: 1024px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 62.5%;
+      font-family: " Poppins", sans-serif;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 1rem;
+      padding: 1rem 6rem;
+    }
+
+    /*NAVBAR CSS*/
+
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 58.51px;
+    }
+
+    span {
+      font-weight: 700;
+    }
+
+    .sub-img {
+      font-size: 24px;
+    }
+
+    .menu-toggle {
+      display: none;
+    }
+
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #fff;
+      padding: 1rem 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 3;
+    }
+    .logo-text {
+      display: flex;
+      align-items: center;
+    }
+
+    .close-icon {
+      display: none;
+      font-size: 2rem;
+      cursor: pointer;
+      text-align: right;
+      padding: 1rem;
+      color: #000;
+    }
+
+    .menu-toggle:checked + .menu-icon + .menu .close-icon {
+      display: block;
+    }
+
+    .menu {
+      padding-top: 3rem;
+    }
+
+    .menu-icon {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+    .menu-icon .fa-solid {
+      color: #333;
+    }
+
+    .menu-toggle:checked + .menu-icon + .menu {
+      display: flex;
+    }
+
+    .menu li {
+      display: block;
+      font-size: 2.1rem;
+      font-weight: 400;
+      text-align: center;
+      padding: 1rem 0;
+      list-style-type: none;
+    }
+
+    /*Introduction section*/
+
+    .head {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row-reverse;
+      gap: 15rem;
+    }
+
+    .mypic {
+      position: relative;
+    }
+
+    .mypic img {
+      height: 42rem;
+      width: 35rem;
+    }
+
+    .dbar {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+    }
+
+    .hi {
+      font-size: 1.8rem;
+    }
+
+    .naming {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      align-items: first baseline;
+      text-align: left;
+    }
+
+    .name {
+      font-size: 2.8rem;
+    }
+
+    .proffesion-1 {
+      font-size: 8rem;
+      letter-spacing: 3px;
+    }
+
+    .proffesion-2 {
+      font-size: 8rem;
+      letter-spacing: 3px;
+      margin-left: 15rem;
+    }
+
+    .line {
+      display: flex;
+      flex-direction: column;
+      row-gap: 3rem;
+    }
+
+    .des {
+      font-size: 1.6rem;
+      font-weight: 400;
+      text-align: left;
+      margin-top: 2rem;
+      word-spacing: 3px;
+    }
+
+    .header-right-section {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+    }
+
+    .hire-me {
+      font-size: 1.8rem;
+    }
+
+    /*ABOUT ME SECTION*/
+
+    .aboutme-head {
+      display: flex;
+      gap: 4rem;
+      margin-top: 5rem;
+    }
+
+    .myimg {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .myimg img {
+      height: 40rem;
+      width: 40rem;
+      z-index: 1;
+      margin-top: 2rem;
+    }
+
+    .dbar-2 {
+      position: absolute;
+      top: 25%;
+      left: 48%;
+    }
+
+    .aboutme {
+      row-gap: 0.3rem;
+      align-items: flex-start;
+    }
+
+    .aboutme-header {
+      font-size: 4.5rem;
+    }
+
+    .aboutme-des {
+      text-align: left;
+      font-size: 1.6rem;
+      font-weight: 400;
+      word-spacing: 3px;
+      width: 70rem;
+    }
+
+    .label-range {
+      font-size: 1.8rem;
+    }
+
+    /* SERVICES SECTION*/
+
+    .services {
+      margin-top: 8rem;
+      row-gap: 6rem;
+    }
+
+    .myservices {
+      row-gap: 4rem;
+      column-gap: 4rem;
+    }
+
+    .service {
+      font-size: 4.5rem;
+      margin-top: 2rem;
+    }
+
+    .services-des {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 400;
+      /* padding: 0 2rem; */
+    }
+
+    .container-skill {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .all-services {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: start;
+      row-gap: 2rem;
+      column-gap: 3rem;
+      width: 115rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      row-gap: 2rem;
+      width: 250px;
+      padding: 1rem;
+    }
+
+    .skill-header {
+      font-size: 1.8rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .skill-des {
+      width: 100%;
+      text-align: left;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+
+    /* PROJECTS SECTION */
+
+    .projects {
+      row-gap: 6rem;
+    }
+
+    .my-project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 4rem;
+      margin-top: 8rem;
+    }
+
+    .pro-btn a {
+      border-radius: 5px;
+      font-size: 1.6rem;
+    }
+
+    .my-project p {
+      font-size: 1.6rem;
+    }
+
+    .landingpage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+    }
+
+    .my-design {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 2rem;
+    }
+
+    .my-design img {
+      width: 35rem;
+    }
+
+
+    /*TESTIMONIALS SECTION*/
+
+    .testimonial-header {
+      margin-top: 8rem;
+      row-gap: 2rem;
+    }
+
+    .testimonial-header h1 {
+      font-size: 4rem;
+    }
+
+    .testimonial-header p {
+      font-size: 1.6rem;
+    }
+
+    .contact-us {
+      margin-top: 8rem;
+    }
+
+    .contact h1 {
+      font-size: 4.5rem;
+    }
+
+    .contact p {
+      font-size: 1.6rem;
+    }
+
+    .mail {
+      flex-direction: row;
+      column-gap: 2rem;
+    }
+
+    .mail input {
+      padding: 1rem;
+      width: 50rem;
+    }
+
+    .mail button {
+      padding: 1rem;
+    }
+
+    .last-s {
+      margin-top: 8rem;
+      padding-top: 5rem;
+    }
+
+    .my-contact {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }

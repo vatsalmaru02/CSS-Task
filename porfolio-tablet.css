@@ -2,6 +2,7 @@
   .header {
     padding: 0 2rem;
   }
+  
   .menu-icon {
     display: block;
     font-size: 2rem;
@@ -56,6 +57,11 @@
   }
 
   /*SERVICES SECTION*/
+  
+  .services {
+    margin-top: 8rem;
+  }
+
   .services-des {
     width: 70rem;
   }
