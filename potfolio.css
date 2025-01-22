@@ -107,6 +107,7 @@ span {
 
 /*Introduction section*/
 .mypic {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -122,9 +123,12 @@ span {
   z-index: 2;
   height: 50px;
   width: 200px;
-  top: 25%;
-  left: 51%;
-  transform: translate(-50%, -50%);
+}
+
+.dbar {
+  position: absolute;
+  top: 15%;
+  left: 20%;
 }
 
 .my-social-media {
