@@ -216,9 +216,13 @@ span {
   z-index: 2;
   height: 50px;
   width: 200px;
-  top: 133%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+}
+
+.dbar-2 {
+  position: absolute;
+  top: 135%;
+  left: 20%;
 }
 
 .aboutme-head {
